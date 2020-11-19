@@ -1,0 +1,13 @@
+[package]
+name = "deep-q-learning"
+version = "0.1.0"
+authors = ["Tom Selfin <selfint@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "deep_q_learning"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.12.3"
+features = ["extension-module"]
